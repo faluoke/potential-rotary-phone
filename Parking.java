@@ -3,13 +3,11 @@
 package GroupProject;
 public class Parking
 {
-    private int carNum, hrNum;
+    private int hrNum;
     private double price;
     
-    public Parking(int c, double p, int h)
+    public Parking(int h)
     {
-        carNum = c;
-        price = p;
         hrNum = h;
     }
     
@@ -18,19 +16,14 @@ public class Parking
         return price;
     }
     
-    public int getCarNum()
-    {
-        return carNum;
-    }
-    
     public int getHrNum()
     {
         return hrNum;
     }
     
-    public void setPrice(double p)
+    public void setPrice()
     {
-        price = carNum * hrNum;
+        price = 2 * hrNum;
     }
     
 }
