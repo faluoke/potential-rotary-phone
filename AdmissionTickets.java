@@ -1,50 +1,29 @@
 package requirements;
 
-import java.io.*;
-import java.util.*;
 //Elmer
-   public static class Ticket {
 
-    long number;
-    String category;
-    String holder;
-    Date date;
+public class Tickets {
+
+    String name;
+    int age;
     double price;
-    boolean status;
-    Random rand;
 
-    class AdmissionTickets(String c, Date d , double p, boolean b){
-    
-    rand = new Random();
-        number = rand.nextLong();
-        holder = h;
-        date = d;
-        price = p;
-        status = b;
+    public Tickets(String n, double p, int a){     
+       name = n;
+       price = p;
+       age = a;
     }
 
     void setPrice(double p) {
         price = p;
     }
 
-    void changePurchaseStatus(boolean newStatus) {
-        status = newStatus;
+    String getName() {
+        return name;
     }
 
-    Long getNumber() {
-        return number;
-    }
-
-    String getCategory() {
-        return category;
-    }
-
-    String getHolder() {
-        return holder;
-    }
-
-    String getDate() {
-        return Date;
+    int getAge() {
+        return age;
     }
 
     double getPrice() {
