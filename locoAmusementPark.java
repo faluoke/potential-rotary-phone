@@ -1,4 +1,4 @@
-package requirements;
+package groupproject;
 
 import java.util.ArrayList;
 import java.util.Scanner;
