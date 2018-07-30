@@ -1,6 +1,6 @@
 //faruk
 //package groupproject;
-package GroupProject;
+package groupproject;
 public class Parking
 {
     private int hrNum;
