@@ -3,8 +3,7 @@ package requirements;
 import java.io.*;
 import java.util.*;
 //Elmer
-   public static void main(String[] args)
-class ticket {
+   public static class Ticket {
 
     long number;
     String category;
