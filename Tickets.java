@@ -8,14 +8,10 @@ public class Tickets {
     int age;
     double price;
 
-    public Tickets(String n, double p, int a){     
+    public Tickets(String n, int a)
+    {     
        name = n;
-       price = p;
        age = a;
-    }
-
-    void setPrice(double p) {
-        price = p;
     }
 
     String getName() {
@@ -27,6 +23,19 @@ public class Tickets {
     }
 
     double getPrice() {
+        if(age < 6)
+        {
+            System.out.println("Cannot get Rides");
+            
+        }
+        else if(age <= 21)
+        {
+            price = 8.99;
+        }
+        else if(age > 21)
+        {
+            price = 15.99;
+        }
         return price;
     }
 }

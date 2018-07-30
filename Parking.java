@@ -13,17 +13,13 @@ public class Parking
     
     public double getPrice()
     {
-        return price;
+        
+        return hrNum * 2;
     }
     
     public int getHrNum()
     {
         return hrNum;
-    }
-    
-    public void setPrice()
-    {
-        price = 2 * hrNum;
     }
     
 }
