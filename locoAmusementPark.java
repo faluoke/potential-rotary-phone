@@ -4,11 +4,10 @@ import java.util.ArrayList;
 import java.util.Scanner;
 // Elmer
 
-public class locoAmusementPark {
+public class LocoAmusementPark {
 
-    public static void main(String[] args) {
 
-        class LocoAmusementPark {
+        public LocoAmusementPark {
 
             ArrayList<admissionTicket> tickets;
             ArrayList<Requirements> requirement;
