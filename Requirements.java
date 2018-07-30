@@ -1,13 +1,10 @@
 package requirements;
 
-import java.io.*;
-import java.util.*;
 //Elmer
 
 public class Requirements (String c, double h, int a)
  {
         
-
         public double height;
         public String rideName;
         public int age;
