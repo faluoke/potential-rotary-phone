@@ -4,17 +4,17 @@ import java.io.*;
 import java.util.*;
 //Elmer
 
-public class Requirements {
-        public static void main(String[] args) {
-
-    class requirement {
+public class Requirements (String c, double h, int a)
+ {
+        
 
         public double height;
         public String rideName;
         public int age;
     }
-    public enum Requirements (String c, double h, int a){
-String rideName = c;
+
+    public Requirements{
+        String rideName = c;
         int customerAge = a;
         double height = h;
 
